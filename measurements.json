@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-26",
+  "build": {
+    "source_commit": "524b538b951566c09044f4947a77ddb8ba0d90e8",
+    "upstream_base": "7ce9dd0cd07d0a684286ba66212685bb9ed69db1",
+    "dawn_package_override": "v20261025.182847 (kept identical for both binaries; download stamp verified)",
+    "sha256": {
+      "candidate": "5fab35c434b0cf10b1254b631bdd3f754a93278c9f4c0b225e7844ba9844dd6a",
+      "upstream": "d9f93a11348498dd9c35c59db142c3ca30281082c905336e9d4f1f2befd51b61",
+      "dawn_library": "e6e30e6fffe7467cf18fc69cafb89ded8b9774c745ac475c5cd7838dbc9ec963"
+    }
+  },
+  "hardware": "Apple M1 Max; Apple Clang 21; Metal",
+  "rendering": "EFB 1704x960, scale2, MSAA4, dynamic resolution off, vsync off, uncapped.",
+  "measurement": "Rendered-frame throughput with AURORA_PRESENT_EVERY=60; every EFB frame is rendered, only one in60 is presented. These are not ordinary presented-game FPS.",
+  "method": "Two three-second frame-delta samples per view/mode after warm-up. Candidate alternates off/on/off/on. Unmodified base measured separately. Small samples; differences do not demonstrate a strong total-frame gain.",
+  "fixture": "Synthetic sun-shadow stress fixture: only sun3 casting enabled in isolated D1241219 environment. Current shipped lights do not activate this path. Original imported data unchanged.",
+  "pixel_comparison_scope": "Only frozen off/on captures within one patched process are time-matched. Separate-process upstream captures differ and are not claimed pixel-identical.",
+  "views": {
+    "wide": {
+      "reference_layer_draws": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "filtered_layer_draws": [
+        72,
+        72,
+        72,
+        130
+      ],
+      "submission_reduction_percent": 66.2109375,
+      "upstream": {
+        "fps_samples": [
+          302.3,
+          300.841
+        ],
+        "mean_ms_samples": [
+          3.307972,
+          3.324016
+        ],
+        "mean_ms": 3.3159543845748667,
+        "frames": 1815
+      },
+      "patched_reference": {
+        "fps_samples": [
+          301.864,
+          300.661
+        ],
+        "mean_ms_samples": [
+          3.31275,
+          3.326
+        ],
+        "mean_ms": 3.3193788146630947,
+        "frames": 1813
+      },
+      "filtered": {
+        "fps_samples": [
+          307.713,
+          306.056
+        ],
+        "mean_ms_samples": [
+          3.249784,
+          3.267375
+        ],
+        "mean_ms": 3.258551093402719,
+        "frames": 1852
+      },
+      "ordinary_off_on_changed_pixels": [
+        0,
+        0,
+        0
+      ],
+      "sun_visibility_changed_pixels": 0
+    },
+    "close": {
+      "reference_layer_draws": [
+        351,
+        351,
+        351,
+        351
+      ],
+      "filtered_layer_draws": [
+        184,
+        219,
+        337,
+        351
+      ],
+      "submission_reduction_percent": 22.293447293447286,
+      "upstream": {
+        "fps_samples": [
+          286.527,
+          278.39
+        ],
+        "mean_ms_samples": [
+          3.490075,
+          3.592081
+        ],
+        "mean_ms": 3.5403599125549565,
+        "frames": 1704
+      },
+      "patched_reference": {
+        "fps_samples": [
+          261.521,
+          281.122
+        ],
+        "mean_ms_samples": [
+          3.823784,
+          3.557175
+        ],
+        "mean_ms": 3.6856748368902554,
+        "frames": 1637
+      },
+      "filtered": {
+        "fps_samples": [
+          271.012,
+          282.856
+        ],
+        "mean_ms_samples": [
+          3.689868,
+          3.535369
+        ],
+        "mean_ms": 3.6110007486619358,
+        "frames": 1671
+      },
+      "ordinary_off_on_changed_pixels": [
+        0,
+        0,
+        0
+      ],
+      "sun_visibility_changed_pixels": 0
+    },
+    "platform": {
+      "reference_layer_draws": [
+        400,
+        400,
+        400,
+        400
+      ],
+      "filtered_layer_draws": [
+        225,
+        295,
+        358,
+        400
+      ],
+      "submission_reduction_percent": 20.125000000000004,
+      "upstream": {
+        "fps_samples": [
+          258.483,
+          252.239
+        ],
+        "mean_ms_samples": [
+          3.868725,
+          3.964488
+        ],
+        "mean_ms": 3.916015844910129,
+        "frames": 1541
+      },
+      "patched_reference": {
+        "fps_samples": [
+          263.726,
+          255.235
+        ],
+        "mean_ms_samples": [
+          3.791809,
+          3.917958
+        ],
+        "mean_ms": 3.8537954210680123,
+        "frames": 1565
+      },
+      "filtered": {
+        "fps_samples": [
+          253.364,
+          260.478
+        ],
+        "mean_ms_samples": [
+          3.946894,
+          3.83909
+        ],
+        "mean_ms": 3.892262250140428,
+        "frames": 1551
+      },
+      "ordinary_off_on_changed_pixels": [
+        0,
+        0,
+        0
+      ],
+      "sun_visibility_changed_pixels": 0
+    }
+  },
+  "moving_intro_completed": true,
+  "interior_transition_mrea": "85578E54",
+  "interior_sun_map_active": false,
+  "validation": {
+    "ctest_total": 640,
+    "passed": 638,
+    "skipped": 1,
+    "failed": 1,
+    "failure": "SceneHdrTest.GxWriterVariantsCompileInBothModes std::out_of_range basic_string abort; reproduced on unchanged same upstream base",
+    "math_asan_ubsan": 8,
+    "fifo": 256
+  }
+}

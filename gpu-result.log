@@ -1,0 +1,11 @@
+case=0 draws=920 baseline=920/920/920/920 filtered=120/160/331/914 covered=2333639 changed=0
+case=1 draws=920 baseline=920/920/920/920 filtered=116/155/287/818 covered=2267133 changed=0
+case=2 draws=920 baseline=920/920/920/920 filtered=100/134/235/770 covered=2834715 changed=0
+case=3 draws=920 baseline=920/920/920/920 filtered=113/142/230/771 covered=2137747 changed=0
+case=4 draws=920 baseline=920/920/920/920 filtered=105/139/271/786 covered=2209162 changed=0
+case=5 draws=920 baseline=920/920/920/920 filtered=108/144/267/919 covered=2219955 changed=0
+case=6 draws=920 baseline=920/920/920/920 filtered=116/153/261/818 covered=2760993 changed=0
+case=7 draws=920 baseline=920/920/920/920 filtered=117/173/326/788 covered=2583521 changed=0
+PASS Metal GPU: 8 views x 4 layers x 1024x1024, depth bytes identical; 29440 -> 10887 submissions; 19346865 covered texels.
+Coverage: opaque/cutout, unknown-All, GPU transforms/reflections, cascade side/far boundaries, sunward pancaking.
+Scope: production fit/box_mask maths plus independent Metal rasterization; not the production caster queue or generated shaders.

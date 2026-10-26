@@ -1,0 +1,5 @@
+Worlds/MP1/!Intro_Master/01_intro_hanger.pak sun0 entity574 componentLayer0 active0 flagsPresent0 casts0 rot 40.463 -60.221 -43.446 rgb 1 0.727434 0.424979 intensity 30
+Worlds/MP1/!Intro_Master/01_intro_hanger.pak sun1 entity575 componentLayer0 active0 flagsPresent0 casts0 rot 150.091 -19.993 51.395 rgb 1 1 1 intensity 12
+Worlds/MP1/!Intro_Master/01_intro_hanger.pak sun2 entity2841 componentLayer2 active0 flagsPresent0 casts0 rot 13.967 -48.806 -3.726 rgb 0.991137 0.98386 0.973617 intensity 100
+Worlds/MP1/!Intro_Master/01_intro_hanger.pak sun3 entity2842 componentLayer2 active0 flagsPresent0 casts0 rot 176.175 -26.864 5.935 rgb 1 1 1 intensity 50
+TOTAL rooms286 directional4 castBit0

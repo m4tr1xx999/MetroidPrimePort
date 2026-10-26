@@ -1,0 +1,10 @@
+{
+  "source_commit": "524b538b951566c09044f4947a77ddb8ba0d90e8",
+  "upstream_base": "7ce9dd0cd07d0a684286ba66212685bb9ed69db1",
+  "dawn_package_override": "v20261025.182847 (kept identical for both binaries; download stamp verified)",
+  "sha256": {
+    "candidate": "5fab35c434b0cf10b1254b631bdd3f754a93278c9f4c0b225e7844ba9844dd6a",
+    "upstream": "d9f93a11348498dd9c35c59db142c3ca30281082c905336e9d4f1f2befd51b61",
+    "dawn_library": "e6e30e6fffe7467cf18fc69cafb89ded8b9774c745ac475c5cd7838dbc9ec963"
+  }
+}
