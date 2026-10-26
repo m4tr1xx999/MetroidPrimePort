@@ -1,0 +1,32 @@
+{
+  "fixture_kind": "controlled minimal source-placement fixture; not a full fresh import",
+  "live_instances": 4130,
+  "runtime_baseline_instances": 4135,
+  "runtime_candidate_instances": 4130,
+  "model_resources": "Same two actual-source CMDLs and real decoded NSP textures available in both runs; nativeMax1024",
+  "full_source_writer_comparison": "645 -> 640; exactly five removed; every other serialized field identical",
+  "base_hiding_indices": "unchanged; source placements appended",
+  "fixed_descriptor_byte_identical_to_live": true,
+  "files": {
+    "live": {
+      "bytes": 347132,
+      "sha256": "d7bc574c2c598c93e27e1ac6de4bf5fe0c83f6fc60857c1d192d1693baa9ba1e"
+    },
+    "source_baseline": {
+      "bytes": 54520,
+      "sha256": "260b57852f9468f33ecb2bec86ecd392bb566969b38ecec9acf897b877a3968a"
+    },
+    "source_candidate": {
+      "bytes": 53980,
+      "sha256": "64c24d8241b986807ec3f2cb3bd3dc84ae0ff943ddd5d8271beb363585d88009"
+    },
+    "runtime_baseline": {
+      "bytes": 347680,
+      "sha256": "eaadef4289eee4a057dd4da01be625cecab611d01be1b8adc4337d3c0c9678dc"
+    },
+    "runtime_candidate": {
+      "bytes": 347132,
+      "sha256": "d7bc574c2c598c93e27e1ac6de4bf5fe0c83f6fc60857c1d192d1693baa9ba1e"
+    }
+  }
+}

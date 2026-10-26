@@ -1,0 +1,306 @@
+{
+  "tested_base": "7b01cdf8a4fd5d2e33396e2caaa28917d22a95f4",
+  "candidate": "b42b4d45e930cdf3e9800f645c8b24529b16a9d5",
+  "platform": "Apple M1 Max, macOS, Metal, Apple Clang 21",
+  "dawn_sdk": "v20261025.182847 (same explicit prebuilt source override for baseline and candidate)",
+  "scope": "Minimal controlled source-placement fixture, not a full fresh world import; actual ROOM/MREA production caller independently verified",
+  "production_writer": "PASS production WriteGeometry: 645 -> 640, exactly four hull + one unlit static source placements omitted; remaining instances and script bytes identical; HIDE indices valid and original ship objects not hidden.",
+  "source_conversion": "PASS both actual-source standalone model conversions; decoded10 files18 PBR4 TEV0",
+  "tests": {
+    "focused": {
+      "passed": 3,
+      "failed": 0
+    },
+    "full": {
+      "total": 632,
+      "passed": 630,
+      "skipped": 1,
+      "failed": 1
+    },
+    "known_baseline_failure": "SceneHdrTest.GxWriterVariantsCompileInBothModes: std::out_of_range (basic_string), reproduced on unchanged tested base",
+    "skip": "port_entity_schema_current: optional source unavailable"
+  },
+  "runs": {
+    "minimal-source-baseline": {
+      "arrival_completed": true,
+      "parked_first_person": true,
+      "exit": 0,
+      "capture_counts": [
+        {
+          "capture": "arrival-0",
+          "ticks_since_hold": 0,
+          "draws": 125,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 0,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-120",
+          "ticks_since_hold": 120,
+          "draws": 130,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 0,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-360",
+          "ticks_since_hold": 360,
+          "draws": 140,
+          "ship_draws": {
+            "B0B69E71": 3,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-600",
+          "ticks_since_hold": 600,
+          "draws": 490,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-900",
+          "ticks_since_hold": 900,
+          "draws": 508,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-1200",
+          "ticks_since_hold": 1200,
+          "draws": 561,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-1800",
+          "ticks_since_hold": 1800,
+          "draws": 218,
+          "ship_draws": {
+            "B0B69E71": 3,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-2400",
+          "ticks_since_hold": 2400,
+          "draws": 411,
+          "ship_draws": {
+            "B0B69E71": 3,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-3000",
+          "ticks_since_hold": 3000,
+          "draws": 785,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 1,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "parked",
+          "ticks_since_hold": null,
+          "draws": 759,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 1,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "revisit",
+          "ticks_since_hold": null,
+          "draws": 297,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        }
+      ],
+      "frames_with_both_models": [
+        "arrival-360",
+        "arrival-1800",
+        "arrival-2400",
+        "arrival-3000",
+        "parked"
+      ],
+      "active_save_functions_preserved": [
+        "000001D1",
+        "00000284"
+      ],
+      "save_ui_not_exercised": true,
+      "errors": [],
+      "startup_pipeline_skipped_draws": 24
+    },
+    "minimal-source-candidate": {
+      "arrival_completed": true,
+      "parked_first_person": true,
+      "exit": 0,
+      "capture_counts": [
+        {
+          "capture": "arrival-0",
+          "ticks_since_hold": 0,
+          "draws": 125,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 0,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-120",
+          "ticks_since_hold": 120,
+          "draws": 130,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 0,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-360",
+          "ticks_since_hold": 360,
+          "draws": 137,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-600",
+          "ticks_since_hold": 600,
+          "draws": 488,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-900",
+          "ticks_since_hold": 900,
+          "draws": 512,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-1200",
+          "ticks_since_hold": 1200,
+          "draws": 561,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-1800",
+          "ticks_since_hold": 1800,
+          "draws": 215,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-2400",
+          "ticks_since_hold": 2400,
+          "draws": 408,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "arrival-3000",
+          "ticks_since_hold": 3000,
+          "draws": 784,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "parked",
+          "ticks_since_hold": null,
+          "draws": 758,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        },
+        {
+          "capture": "revisit",
+          "ticks_since_hold": null,
+          "draws": 297,
+          "ship_draws": {
+            "B0B69E71": 0,
+            "2712A65A": 0,
+            "578C5D12": 5,
+            "1C0B0BEF": 0
+          }
+        }
+      ],
+      "frames_with_both_models": [],
+      "active_save_functions_preserved": [
+        "000001D1",
+        "00000284"
+      ],
+      "save_ui_not_exercised": true,
+      "errors": [],
+      "startup_pipeline_skipped_draws": 0
+    }
+  },
+  "saves": "Only copied isolated test profile used. Original seven save/settings files and live Landing Site descriptor unchanged by SHA-256. Save UI was not exercised.",
+  "capture_method": "Separate process starts; stepped relative ticks plus fixed parked camera and diagnostic warp out/back. Not a pixel-matched comparison or manual door traversal.",
+  "existing_imports": "Re-import required; room stage version 44 to 45."
+}
